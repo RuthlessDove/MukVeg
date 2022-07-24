@@ -1,0 +1,645 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:#f1faee;
+}
+
+.hamburger-btn {
+  border: unset;
+  background:  #60935D;
+} 
+
+.close-btn{ 
+  width: 100%;
+  background-color:  #60935D;
+  border:unset;
+}
+.top-bar{
+  background-color: #60935D ; 
+}
+
+.logo{
+
+  width: 400px ;
+  height: 100px ;
+  object-fit: cover ; 
+ }
+
+.burrito-bowl-img{
+  width: 15em ;
+  height: 15em ;
+  object-fit: cover ;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box1{
+
+  display: flex;
+  flex-direction: column ;
+  justify-content: flex-end ;
+}
+
+.center-align{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+/* Home page CSS begins here ...*/
+
+.os{
+
+  font-family: 'Arvo', serif;
+  font-size: 25px ;
+
+}
+
+.story{
+
+  margin-left: 1em ;
+  margin-right: 1em ;
+  text-align: center ;
+
+}
+
+.title-os {
+
+  padding-top: 1em ;
+  font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.words{ 
+  
+  display: flex ; 
+
+}
+
+.f-g{
+
+  border-radius: 50% ;
+  width: 20em ;
+  height: 20em ;
+  object-fit: cover ;
+  padding-right: 1em ;
+
+
+}
+
+.text{
+
+  background-color: lightgray  ;
+  font-family: 'Arvo', serif;
+
+
+}
+
+.water-counter{
+
+  width: 100% ;
+  display: flex ;
+  justify-content: center ;
+  background-color: darkslategrey;
+  background-visibility: 50%;
+}
+
+.divider{
+
+  border:none;
+  border-top:1px dashed #000;
+  height:5px;
+  width:100%;
+
+}
+
+.veg-muk{
+
+  width: 400px ;
+  height: 300px ;
+  object-fit: cover;
+  margin-right: 1em ;
+  margin-left: 1em ;
+  border: solid white 5px ;
+
+}
+
+.veg-muk-text{
+
+  text-align: right ;
+
+}
+
+/* Slideshow starts here... */
+
+.slideshow-container {box-sizing:border-box}
+
+/* Slideshow container */
+
+.slideshow-container {
+
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 1em ;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white ;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: 'Arvo', serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Slideshow ends here... */
+
+/* Newsletter form starts here .. */
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* Newsletter form ends here. */
+
+/*  */
+
+
+
+
+
+/* Home page CSS ends here ...*/
+
+
+
+                      /* RECEPIES STYLING STARTS HERE */
+
+.recepiesPhotos{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.recepiesBody{
+  font-family: 'Quicksand', sans-serif;
+  color: #E8D2AE;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recepies-container{
+  max-width: 100%;
+  margin: 2px;
+  grid-auto-flow: dense;
+  grid-row-gap: 15px;
+  grid-column-gap: 6px;
+}
+
+.recepies-container .recepies-box{
+  background: rgba(255, 162, 81, 0.76);
+  padding: 60px;
+  margin: 10px;
+  display: grid;
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  transition: 0.4s;
+}
+
+.recepies-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recepies-container .recepies-box:hover{
+  background: rgba(87, 138, 99, 0.644);
+  text-shadow: 0 0 5px white;
+}
+
+.CONTAIN {
+  position: relative;
+  width: 100%;
+}
+
+.CONTAIN:hover .overlay {
+  height: 100%;
+}
+
+.recepies-explanation{
+  margin: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* info page code */
+
+.info-box {
+  margin-left: 1em ;
+  margin-right: 1em ;
+  text-align: center ;
+  
+
+}
+.info-header{
+  font-size: 50px;
+  color: #19647E;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.info-info {
+  padding-bottom: 2em ;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.info-para{
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.image-box {
+  display: flex;
+  display: block;
+  justify-content: center;
+
+}
+
+.info-images{
+  width: 600px;
+  height: 400px;
+  //margin: 30px;
+  object-fit: cover;
+  border: 5px solid  #F46036;
+  border-radius: 50px;
+  
+}
+
+.fullwrap {
+  position: relative;
+  width: 800px;
+  display:flex;
+  justify-content: center;
+  margin-left: 18%;
+  margin-bottom: 20px;
+
+}
+
+/* (B) RESPONSIVE IMAGE */
+.fullwrap img { width: 100%; }
+
+/* (C) CAPTION */
+.fullcap {
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding-top: 4%;
+  /* (C3) COLORS */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 50px;
+}
+
+/* (D) SHOW/HIDE */
+.fullcap {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.fullwrap:hover .fullcap {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* (X) NOT IMPORTANT */
+html, body { padding: 0; margin: 0; }
+
+/* code for common swaps page */
+
+
+.containercs {
+  width: 97%; 
+  padding:65px;
+  margin-right: 22px;
+  background-color:rgba(255, 162, 81, 0.76) ;
+  margin-top:25px;
+  margin-left:22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed 2px black ;
+
+  
+}
+
+.containercs2{
+  width: 97%;
+  padding: 250px;
+  padding-top: 100px ;
+  padding-bottom: 100px ;
+  background-color:#60935D;
+  margin-right:22px;
+  margin-bottom: 22px;
+  margin-left: 22px;
+  margin-top: 1em ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: dashed 2px black ;
+
+  
+ 
+}
+
+.commonswapstitle{
+margin-top: 20px;
+text-align:center;
+color: #19647E;
+
+}
+
+
+.commonswapstitle1{
+
+font-family: 'Quicksand', sans-serif;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+.dropDownbtn {
+  border: unset;
+}
+.dropDownbtn:hover {
+  background-color: #E8D2AE;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content dropbtn {
+  
+  border: unset;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.cs-drop-box {
+  display: flex;
+  
+  flex-direction:column;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.textcs {
+ margin-right: 20px;
+ font-family: "Arvo";
+}
+
+
+
+.cs-images{
+  width: 100%;
+  height: 300px;
+  //margin: 30px;
+  object-fit: cover;
+  border: 5px solid  #F46036;
+  border-radius: 50px;
+  
+}
+
+.fullwrapcs {
+  position: relative;
+  width: 300px;
+
+  display:flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-bottom: 20px;
+
+}
+
+/* (B) RESPONSIVE IMAGE */
+.fullwrapcs img { width: 100%; }
+
+/* (C) CAPTION */
+.fullcapcs {
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding-top: 4%;
+  /* (C3) COLORS */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 50px;
+}
+
+/* (D) SHOW/HIDE */
+.fullcapcs {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.fullwrapcs:hover .fullcapcs {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* (X) NOT IMPORTANT */
+html, body { padding: 0; margin: 0; }
+
+/*
+beige: #E8D2AE
+light green: #f1faee
+green: #60935D
+orange: #F46036
+blue: #19647E
+brown: #5A3A31
+*/
+

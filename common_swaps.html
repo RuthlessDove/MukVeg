@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- //importing things  -->
+
+<title>repl.it</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- //code for sidebar  -->
+
+<div class="w3-sidebar w3-bar-block w3-green" style="display:none" id = "mysidebar">
+  <button class="close-btn">Close &times;</button>
+  <a href="index.html"class="w3-bar-item w3-button w3-hover-orange">Home</a>
+  <a href="recipes.html" class="w3-bar-item w3-button w3-hover-orange">Recipes</a>
+  <a href="info.html" class="w3-bar-item w3-button w3-hover-orange">Information Page</a>
+
+  <a href="common_swaps.html" class="w3-bar-item w3-button w3-hover-orange">Common Swaps</a>
+
+</div>
+
+<!-- // code for title bar and hamburger button  -->
+
+<div id = "main">
+<div class =  "top-bar">
+<button id = "openNav" class="hamburger-btn w3-xlarge " id ="mybutton" >☰</button>
+
+<div class="w3-container  top-bar center-align" >
+  <a href="index.html">
+  <img src="Photos/MukVeg.jpg" alt="MukVeglogo" class="logo">
+  </a>
+</div> 
+
+</div>
+</div>
+
+<div class="commonswapstitle">
+
+  <h1 class="commonswapstitle1"> 🔁Common Swaps  </h1>
+</div>
+
+<section class = "containercs">
+
+ <div class= "textcs">
+   <p> Welcome to our Common Swaps page. Chose a meat in the dropdown and it will give you some alternatives. </p>
+
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class = "cs-drop-box">
+      <button class= "dropDownbtn dropDownchoice1" onclick="meatswaps_chicken()">Chicken</button>
+      <button class= "dropDownbtn dropDownchoice2" onclick="meatswaps_beef()" >Beef</button>
+      <button class= "dropDownbtn dropDownchoice3" onclick="meatswaps_egg()">Egg</button>
+    </div> 
+  </div>
+</div>
+</section>
+
+<section class="containercs2">
+  <div class = " fullwrapcs" id="quornimg" style = "display:none">
+      
+        <img id="quornimg"  alt= "your health"class="cs-images " src ="Photos/quorn_mince.jpeg">
+        
+      
+    <div class="fullcapcs"><br><br><br><br><br><br>Quorn mince</div>
+  </div>
+  <div class = " fullwrapcs" id="chickenimg" style = "display:none">
+      
+        <img id="quornimg"  alt= "your health"class="cs-images " src ="Photos/Seitan.jpg">
+
+    <div class = " fullwrapcs" id="lentilimg" style = "display:none">
+      
+        <img   alt= "your health"class="cs-images " src ="Photos/lentils.jpeg">
+        
+      
+    <div class="fullcapcs"><br><br><br><br><br><br>Lentils</div>
+  </div>
+        
+      
+    <div class="fullcapcs"><br><br><br><br><br><br>Seitan</div>
+  </div>
+
+  <div class = " fullwrapcs" id="tofuimg" style = "display:none">
+      
+        <img   alt= "your health"class="cs-images " src ="Photos/tofu_image.jpeg">
+        
+      
+    <div class="fullcapcs"><br><br><br><br><br><br>Tofu Scramble</div>
+  </div>
+
+
+
+
+</section>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+
+</html>
+
+
+
+
+
+  
